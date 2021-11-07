@@ -130,7 +130,7 @@ public class BrandServiceImpl implements BrandService {
      *
      * @param id
 */
-
+//test git
     public void checkBrandExistById(Integer id) {
         Brand brand = brandMapper.selectByPrimaryKey(id);
         if (null == brand) {
